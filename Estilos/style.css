@@ -1,0 +1,70 @@
+h2{
+    text-align: center;
+}
+
+#sdas{
+    text-align: left;
+}
+img,video{
+    border: 10px rgb(0, 0, 0) solid;
+    max-width: 500px;
+    height: auto;
+    
+}
+div.imagenGato{
+    text-align: center;
+}
+h1{
+    color: rgb(237, 25, 25);
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#lista1{
+    color: yellow;
+}
+#listaRoja{
+    color: red;
+}
+#listaRomana{
+    color: green;
+}
+
+.DivListas{
+    background-color: rgb(25, 24, 24);
+    color: white;
+}
+
+iframe{
+    max-width: 100%;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.BotonesColores{
+    text-align: center;
+
+}
+
+#B_rojo:hover{
+    background: red;
+}
+#B_azul:hover{
+    background: blue;
+}
+#B_amarillo:hover{
+    background: yellow;
+}
+#B_verde:hover{
+    background: green;
+}
+#B_blanco:hover{
+    background: white;
+}
+#B_negro:hover{
+    background: black;
+    color: white;
+}

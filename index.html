@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="repasandoHTML">
+    <meta property="og:description" content="En esta pagina se está viendo lo que es html">
+    <meta property="og:image" content="Midominio.com/imagen">
+    <meta property="og:url" content="midomino.com/index">
+    <meta name="twitter.card" content="summary">
+    <meta name="twitter.site" content="@ValentinRoldan">
+    <title>Document</title>
+    <link rel="stylesheet" href="Estilos/style.css">
+    <link rel="canonical" href="vmidominio.com">
+    <link rel="icon" href="Imagenes/archivo-png.png">
+    <!--Para celulares-->
+    <link rel="apple-touch-icon" href="Imagenes/archivo-png.png">
+</head>
+<body>
+    <h1 id="inicio">INICIO</h1>
+    <p>Hola doñas, como estan?</p>
+    <hr>
+    <ul>
+        <li><a href="index.html#h1Principal">H1 PRINCIPAL</a></li>
+        <li><a href="index.html#etiquetaTexto">Etiquetas De Texto</a></li>
+        <li><a href="index.html#etSemanticas">Etiqueta semantica</a></li>
+        <li><a href="index.html#etSalto">Etiqueta de Salto</a></li>
+        <li><a href="index.html#etiFormateo">Etiqueta de formateo</a></li>
+        <li><a href="index.html#rep2">Repaso 2</a></li>
+        <li><a href="index.html#semanticasEstructurales">Semanticas estructurales</a></li>
+        <li><a href="index.html#etqbvsl">Etiquetas de bloque vs de linea</a></li>
+        <li><a href="index.html#imageness">Imagenes</a></li>
+        <li><a href="index.html#lo">Listas Ordenadas</a></li>
+        <li><a href="index.html#lu">Listas Desordenadas</a></li>
+        <li><a href="index.html#tab">Tablas</a></li>
+        <li><a href="index.html#ei">Elementos Interactivos</a></li>
+        <li><a href="index.html#AudioVideo">Estructura de audio y video</a></li>
+        <li><a href="index.html#iframes">Iframe</a></li>
+        <li><a href="index.html#formularios">Formularios</a></li> 
+        <li><a href="index.html#atributosFormularios">Atributos de Formularios</a></li>
+        <li><a href="index.html#checkbox">CheckBox</a></li>
+    </ul>
+    <p>HTML headings are titles or subtitles that you want to display on a webpage</p>
+    <hr>
+    <h2>tipos de encabezados</h2>
+    <h1 id="h1Principal"> Heading 1</h1> 
+    <h2 id="sdas"> Heading 2</h2>
+    <h3> Heading 3</h3>
+    <h4> Heading 4</h4>
+    <h5> Heading 5</h5>
+    <h6> Heading 6</h6>
+    <hr>
+    <h2 id="etiquetaTexto">Etiquetas De Texto</h2>
+    <p>
+        <b>negriiito</b>,<i>cursiiiva</i>,<u>subrayaado</u>,H<sub>2</sub>O,<mark>texto marcaado</mark>,<small>pequeñiiito</small>
+        2<sup>3</sup> = 8
+        <hr>
+    </p>
+    <h2 id="etSemanticas">Etiquetas Semanticas</h2>
+    <strong>Este texto es importante</strong>
+    <em>Este texto hace enfasis</em>
+    <blockquote>Solo se que se todo buiiiina</blockquote>
+    <cite>Esteban de heredia VI</cite>
+    <hr>
+    <h2 id="etSalto">Etiqueta de Salto</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Atque saepe velit nostrum quaerat, deleniti molestiae similique <br>
+    ipsum maiores eum illo, laborum eius! Unde sit 
+    <br><br>
+    provident, consequatur vero esse itaque veritatis?</p>
+    <a href="index.html#inicio">☝</a>
+    <hr>
+    <h2 id = "etiFormateo">ETIQUETAS DE FORMATEO</h2>
+    <pre>
+        <p>
+            Lista del super
+                -maicena
+                -polenta presto pronta
+                -gaseosa bichi
+            Lista de elementos random
+                -auto
+                -pepe
+                -tucuman
+        </p>
+    </pre>
+    <p>
+        <code>Formato codigo</code>
+    </p>
+    <pre>
+        <code>
+        AgregarPrincipioEnListaC(Nodo *n, Lista *l){
+            if(l->raiz == NULL){
+                l->raiz = n;
+                l->siguiente = NULL;
+            }
+            else{
+                n->siguiente = l->raiz;
+                l->raiz = n;
+            }
+        }
+        </code>
+    </pre>
+    <a href="index.html#inicio">☝</a>
+    <h1 id="rep2">REPASO 2</h1>
+    <hr>   
+    <h2 id="semanticasEstructurales"><b>semanticas estructurales</b> </h2>
+    <div><p><b>Div:</b> etiqueta contenedora que no tiene semantica</p></div>
+    <header><p><b>Header:</b> cabecera de un sitio web o seccion</p></header>
+    <main><p><b>Main:</b> Define la seccion principal del documento, solo puede haber una por documento</p></main>
+    <footer><p><b>Footer:</b> pie de pagina de un documento</p></footer>
+    <nav><p><b>Nav:</b> representa un menú de navegacion</p></nav>
+    <article><p><b>Article:</b> representa una seccion de autocontenido (que por si sola se explica)</p></article>
+    <aside><p><b>Aside:</b> representa un contenido complementario o secundario</p></aside>
+    <section><p><b>Section:</b> representa una seccion o contenido generico</p></section>
+    <address><p><b>Address:</b> representa una direccion fisica</p></address>
+    <br>
+    <a href="index.html#inicio">☝</a>
+    <hr>
+    <h2 id="etqbvsl"><b>ETIQUETA DE BLOQUE VS DE LINEA</b></h2>
+    <div style="background-color: cadetblue;">La etiqueta de bloque por excelencia es el <b>DIV</b></div>
+    <br>
+    <span style="background-color: rgb(236, 226, 28);">La etiqueta de linea por excelencia es el <b>SPAN</b></span>
+    <span>Otro <b>SPAN</b></span>
+    <hr>
+    <br>
+    <hr>
+    <script>
+        console.log("Hola, esto esta dentro de la CONSOLA");
+        document.write("Buenas, esto esta dentro de la etiqueta script y dentro de la pagina");
+    </script>
+    <hr>
+    <a href="index.html#inicio">☝</a>
+    <h2 id="imageness">Imagenes</h2>
+    <div class="imagenGato"><img src="Imagenes/Gato.jpg" alt="Gato"></div>
+    <a href="index.html#inicio">☝</a>
+    <div class="DivListas">
+        <h2 id="lo">Listas Ordenadas</h2>
+        <h3>Estaciones</h3>
+        <ol start="-3" id="listaRoja">
+            <li>Otoño</li>
+            <li>Privamera</li>
+            <li>Verano</li>
+            <li>Invierno</li>
+        </ol>
+        <ol id="lista1">
+            <li>Verano</li>
+            <li>Otoño</li>
+            <li>Invierno</li>
+            <li>Privamera</li>
+        </ol>
+        <ol reversed id="listab"> <!--Ordena la lista de MAYOR A MENOR-->
+            <li>Verano</li>
+            <li>Otoño</li>
+            <li>Invierno</li>
+            <li>Privamera</li>
+        </ol>
+        <ol type="I" id="listaRomana">
+            <li>Verano</li>
+            <li>Otoño</li>
+            <li>Invierno</li>
+            <li>Privamera</li>
+        </ol>
+        <div id="aaa">
+            <h2 id="lu">Listas Desordenadas</h2>
+            <h3>Tareas random</h3>
+            <ul type = "Circle">
+                <li>Cortar el pasto</li>
+                <li>Regar las plantas</li>
+                <li>Darle de comer al gato</li>
+                <li>Comprar dulce de leche</li>
+            </ul>
+            <ul type = "Square">
+                <li>Cortar el pasto</li>
+                <li>Regar las plantas</li>
+                <li>Darle de comer al gato</li>
+                <li>Comprar dulce de leche</li>
+            </ul>
+        
+        <h2 id="tab">Tablas</h2>
+        <table>
+            <tr>
+                <td>Pais</td>
+                <td>CAPITAL</td>
+                <td>CONTINENTE</td>
+            </tr>
+            <tr>
+                <td rowspan="1">Japon</td>
+                <td>Tokyo</td>
+                <td>Asia</td>
+            </tr>
+            <tr>
+                <td colspan="1">Francia</td>
+                <td>Paris</td>
+                <td>Europa</td>
+            </tr>
+            <tr>
+                <td><b>Canada</b></td>
+                <td>Otawa</td>
+                <td>America</td>
+            </tr>
+        </table>
+        <a href="index.html#inicio">☝</a>
+    </div>
+    </div>
+    <hr>
+    <h2 id="ei">Elementos Interactivos</h2>
+    <details>
+        <summary>Acordeon</summary>
+        <article>
+            <h3>Contenido del acordeon</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore tenetur, mollitia a consequatur beatae quaerat voluptas quia autem vero consectetur odio repudiandae atque iste eaque eos ipsum exercitationem magni nemo.</p>
+            <img src="Imagenes/Cara.gif" alt="Cara?">
+            <p>Mas texto blablablabla</p>
+        </article>
+    </details>
+    <a href="index.html#inicio">☝</a></li>
+    <hr>
+    <h2 id="AudioVideo">Estructura de audio y video</h2>
+    <audio src="Media/MusicaDeEjemplo.mp3" controls></audio><br>
+    <video src="Media/ArgentinaHolanda2014.mp4" controls preload="auto" poster="Imagenes/AvsH.jpg"></video>
+    <br>
+    <a href="index.html#inicio">☝</a>
+    <hr>
+    <h2 id="iframes">Iframes</h2>
+    <div>
+     <iframe src="nuevodoc.html" frameborder="1" width="6000px" height="500px"></iframe>
+    </div>
+    <br>
+    <a href="index.html#inicio">☝</a>
+    <hr>
+    <h2 id="formularios">Formularios</h2>
+    <h3>Elementos de formulario</h3>
+    <input type="text" id="texto">
+    <br>
+    <input type="checkbox">
+    <br>
+    <input type="radio">
+    <br>
+    <input type="date">
+    <br>
+    <input type="color">
+    <br>
+    <input type="button" value="Aceptar">
+    <br>
+    <input type="submit" value="Enviar">
+    <br>
+    <input type="reset" value="Reiniciar">
+    <br>
+    <input type="file">
+    <br>
+    <form>
+        <input type="text" id="txt" placeholder="texto">
+        <input type="button" value="aceptar" onclick="recibirTexto();">
+        <input type="reset">
+    </form>
+    <br>
+    <input type="hidden" name="idioma" value="es">
+    <br>
+    <input type="file" multiple>
+    <br>
+    <form><input type="email" placeholder="Email"><button>click</button></form>
+    <br>
+    <input type="number" placeholder="tipo number">
+    <br>
+    <input type="tel" placeholder="Num de telefono"><br>
+    <input type="search" placeholder="buscar"><br>
+    <input type="password" placeholder="contraseña"><br>
+    <textarea cols="5" rows="4"></textarea>
+    <br>
+    <br>
+    <select name="" id="">
+        <option value="">ROJO</option>
+        <option value="">AZUL</option>
+        <option value="">VERDE</option>
+        <option value="">AMARILLO</option>
+        <option value="">NEGRO</option>
+    </select>
+    <select name="" id="" multiple>
+        <option value="">1</option>
+        <option value="">2</option>
+        <option value="">3</option>
+        <option value="">4</option>
+        <option value="">5</option>
+    </select>
+    <hr>
+    <h2 id="atributosFormularios">Atributos de los Formularios</h2>
+    <input type="text" value="Valentin" readonly><br>
+    <input type="text" value="Valentin" disabled><br>
+    <hr>
+    <h3>Formulario Login</h3>
+    <form action="https://www.youtube.com/" target="_blank" method="get">
+        <input type="text" name="usuario" placeholder="Username">
+        <br>
+        <input type="password" name="contraseña" placeholder="Password">
+        <br>
+        <input type="submit">
+        <br>
+        <input type="reset">
+    </form>
+    <form>
+        <p>Consigna</p>
+        <select name="seleccion" id="">
+            <option value="A">A</option>
+            <option value="B">B</option>
+            <option value="C">C</option>
+        </select>
+        <input type="submit">
+    </form>
+    <hr>
+    <br>
+    <form>
+        <label for="radio-js">Javascript</label>
+        <input type="radio" name="lenguaje" id="radio-js" value="js">
+        <label for="radio-py">Python</label>
+        <input type="radio" name="lenguaje" id="radio-py" value="py">
+        <label for="radio-js">C#</label>
+        <input type="radio" name="lenguaje" id="radio-c#" value="C-Sharp">
+        <label for="radio-py">JAVA</label>
+        <input type="radio" name="lenguaje" id="radio-java" value="java">
+        <input type="submit">
+        <input type="reset">
+    </form>
+    <br>
+    <hr>
+    <form>
+        <input type="text" id="num1" placeholder="Numero 1">
+        <input type="text" id="num2" placeholder="Numero 2">
+        <input type="button" onclick="Sumar();" value="Sumar">
+        <input type="button" onclick="Restar();" value="Restar">
+        <input type="button" onclick="Multiplicar();" value="Multiplicar">
+        <input type="button" onclick="Dividir();" value="Dividir">
+    </form>
+    <a href="index.html#inicio">☝</a>
+    <hr>
+    <h2 id="checkbox">CheckBox</h2>
+    <h3>Seleccione sus ingredientes</h3>
+    <form>
+        <label>
+            <input type="checkbox" name="ingrediente" value="Cebolla">
+            Cebolla
+        </label>
+        <label>
+            <input type="checkbox" name="ingrediente" value="Queso">
+            Queso
+        </label>        
+        <label>
+            <input type="checkbox" name="ingrediente" value="Lechuga">
+            Lechuga
+        </label>
+        <label>
+            <input type="checkbox" name="ingrediente" value="Carne">
+            Carne
+        </label>
+        <label>
+            <input type="checkbox" name="ingrediente" value="Pan">
+            Pan
+        </label>  
+        <input type="submit">
+        <input type="reset">
+    </form>
+    <hr>
+    <form action="https://formsubmit.co/roldanvalen02@gmail.com" method="POST">
+        <input type="text" name="nombre" placeholder="Ingresa tu nombre" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" title="El nombre solo acepta letras y espacios en blanco" required>
+        <input type="email" name="correo" placeholder="Ingrese su correo electronico" pattern="(\W+[/./-]?){1,}@[a-z]+[/.]\W{0-9,}$" title="formato de correo invalido" required><br>
+        <textarea name="comentarios" cols="30" rows="10" required></textarea><br>
+        <input type="submit">
+        <a href="index.html#inicio" id="inicioUltimo">☝</a>
+    </form>
+    <link rel="canonical" href="">
+
+    <hr>
+    <h2>Cambiar de color según botón</h2>
+    <div class="BotonesColores">
+        <input type="button" value="ROJO" onclick="CambiarColor('red');" id="B_rojo">
+        <input type="button" value="AZUL" onclick="CambiarColor('blue');" id="B_azul">
+        <input type="button" value="AMARILLO" onclick="CambiarColor('yellow');" id="B_amarillo">
+        <input type="button" value="VERDE" onclick="CambiarColor('green');" id="B_verde">
+        <input type="button" value="BLANCO" onclick="CambiarColor('white');" id="B_blanco">
+        <input type="button" value="NEGRO" onclick="CambiarANegro();" id="B_negro">
+        <br>
+        <input type="button" value="Color Aleatorio" onclick="ColorAleatorio();">
+    </div>
+    <hr>
+    
+    <script src="JS/script.js"></script>
+    <script src="Scripts/app.js"></script>
+    <script src="Scripts/cambiarColor.js"></script>
+    <script src="Scripts/clase.js"></script>
+</body>
+</html>
